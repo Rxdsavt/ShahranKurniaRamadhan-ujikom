@@ -8,10 +8,14 @@ public class PlayerScript : MonoBehaviour
     // Spawn Food Purposes
     public Transform spawnPoint;
     public GameObject foodObject;
-    
+
+    // Audio Purposes
+    public AudioSource src;
+    public AudioClip throwFoodClip;
+
     void Start()
     {
-        
+        src = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -30,6 +34,7 @@ public class PlayerScript : MonoBehaviour
         // Food Spawning
         if (Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.Space))
         {
+            src.PlayOneShot(throwFoodClip, 0.5f);
             Instantiate(foodObject, spawnPoint.position, Quaternion.identity);
         }
     }
