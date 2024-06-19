@@ -7,6 +7,7 @@ public class AnimalScript : MonoBehaviour
     public float score;
     public AudioSource src;
     public AudioClip eatClip;
+    public AudioClip deadClip;
 
     void Start()
     {
@@ -17,7 +18,8 @@ public class AnimalScript : MonoBehaviour
     {
         if (hungerNeeds <= 0)
         {
-            Destroy(gameObject);
+            src.PlayOneShot(deadClip, 0.3f);
+            Destroy(gameObject, 0.3f);
         }
     }
 

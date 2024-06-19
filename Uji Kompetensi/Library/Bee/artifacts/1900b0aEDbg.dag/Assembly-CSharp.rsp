@@ -355,6 +355,7 @@
 "Assets/Scripts/AnimalScript.cs"
 "Assets/Scripts/AnimalSpawner.cs"
 "Assets/Scripts/ButtonScript.cs"
+"Assets/Scripts/GameplayManager.cs"
 "Assets/Scripts/PlayerScript.cs"
 "Assets/Scripts/SpawnedObjectScript.cs"
 -langversion:9.0

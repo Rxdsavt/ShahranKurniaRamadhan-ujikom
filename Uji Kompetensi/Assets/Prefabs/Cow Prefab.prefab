@@ -118,6 +118,7 @@ MonoBehaviour:
   score: 5
   src: {fileID: 6218612330878108904}
   eatClip: {fileID: 8300000, guid: aebae0e89d575dc43ae340319487ef87, type: 3}
+  deadClip: {fileID: 8300000, guid: 0c008ee3ee72a4362a35be25fa5de043, type: 3}
 --- !u!82 &6218612330878108904
 AudioSource:
   m_ObjectHideFlags: 0
