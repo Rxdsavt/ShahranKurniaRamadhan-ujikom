@@ -1936,6 +1936,7 @@ MonoBehaviour:
   BGM: {fileID: 376241808}
   src: {fileID: 1509813403}
   clip: {fileID: 8300000, guid: 821abbd1f84b1f840a77f7944f690132, type: 3}
+  pauseMenuUI: {fileID: 0}
 --- !u!1 &2058416891
 GameObject:
   m_ObjectHideFlags: 0

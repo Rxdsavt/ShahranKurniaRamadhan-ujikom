@@ -10,6 +10,7 @@ public class GameplayManager : MonoBehaviour
     public GameObject BGM;
     public AudioSource src;
     public AudioClip clip;
+    public GameObject pauseMenuUI;
 
     // Start is called before the first frame update
     void Start()
